@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
+export const runtime = "edge";
+
 export const metadata: Metadata = {
 	title: "Be The Rich",
 	description: "Make money!!",

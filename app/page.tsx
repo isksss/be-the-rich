@@ -1,10 +1,11 @@
+import CounterButton from "@/components/ui/CounterButton";
 import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
 	return (
 		<>
 			<div>
-				<h1>Be The Rich</h1>
+				<CounterButton />
 			</div>
 		</>
 	);
